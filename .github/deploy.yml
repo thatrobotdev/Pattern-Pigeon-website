@@ -3,7 +3,7 @@ name: Deploy Pattern Pigeon to Eleventy Site Repo
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: [$default-branch]
+    branches: [main]
   
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -29,14 +29,10 @@ jobs:
           ruby-version: '3.1' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
-      
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v5
 
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        run: bundle exec jekyll build --baseurl "/projects/pattern-pigeon"
         env:
           JEKYLL_ENV: production
 
@@ -48,3 +44,5 @@ jobs:
           publish_branch: main
           publish_dir: ./_site
           destination_dir: content/projects/pattern-pigeon
+          user_name: github-actions
+          user_email: github-actions@github.com
