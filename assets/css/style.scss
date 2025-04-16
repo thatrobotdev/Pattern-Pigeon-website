@@ -3,12 +3,26 @@
 
 @import "{{ site.theme }}";
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&text=🄯');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&text=🐦');
 
-.noto-color-emoji-regular {
-    font-family: "Noto Color Emoji", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+.bird-emoji {
+    font-family: "Noto Color Emoji";
+}
+
+@font-face {
+    font-display: swap;
+    font-family: CCSymbols;
+    font-synthesis: none;
+    src: url(../fonts/CCSymbols/CCSymbols.woff2) format(woff2),
+        url(../fonts/CCSymbols/CCSymbols.woff) format(woff);
+    unicode-range: u+a9, u+229c,
+        u+1f10d-1f10f,
+        u+1f16d-1f16f;
+}
+
+body {
+    font-family: Lato, "Helvetica Neue", Helvetica, "Inter", sans-serif, system-ui, CCSymbols, "Source Sans 3";
 }
 
 /* Tooltip container */
@@ -60,10 +74,10 @@
 }
 
 .blockquote {
-    margin:0 -20px 20px;
-    padding:15px 20px 1px 40px;
-    font-style:italic;
-    background:#ccc;
-    background:rgba(#000, 0.06);
-    color:#222;
+    margin: 0 -20px 20px;
+    padding: 15px 20px 1px 40px;
+    font-style: italic;
+    background: #ccc;
+    background: rgba(#000, 0.06);
+    color: #222;
 }
