@@ -21,10 +21,10 @@
 title: 🐦 Pattern Pigeon
 description: "A conversational assistant built with Dialogflow CX to teach the Strategy, Composite, and Observer design patterns."
 show_downloads: false # whether to provide a download URL
-# google_analytics: [Your Google Analytics tracking ID]
 
+repository: thatrobotdev/Pattern-Pigeon-website
 baseurl: "/projects/pattern-pigeon" # the subpath of your site, e.g. /blog
-url: "https://jameskerrane.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.jameskerrane.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 remote_theme: pages-themes/modernist@v0.2.0
