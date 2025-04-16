@@ -46,3 +46,4 @@ jobs:
           destination_dir: content/projects/pattern-pigeon
           user_name: github-actions
           user_email: github-actions@github.com
+          commit_message: "Auto-deploy from Pattern Pigeon: ${{ github.sha }}"
