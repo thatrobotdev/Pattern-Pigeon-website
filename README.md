@@ -1,5 +1,7 @@
 # [Pattern Pigeon Website](https://www.jameskerrane.com/projects/pattern-pigeon/)
 
+![Screenshot](.github/README/Screenshot%202025-04-17%20at%2011-34-51%20Coo%20coo!%20(Salutations!)%20🐦%20Pattern%20Pigeon.png)
+
 Website for 🐦 Pattern Pigeon, a conversational assistant built with Dialogflow CX to teach the [Strategy](https://en.wikipedia.org/wiki/Strategy_pattern), [Composite](https://en.wikipedia.org/wiki/Composite_pattern), and [Observer](https://en.wikipedia.org/wiki/Observer_pattern) design patterns.
 
 ## 🕊️ Try the Demo
@@ -7,7 +9,7 @@ Website for 🐦 Pattern Pigeon, a conversational assistant built with Dialogflo
 Curious how Pattern Pigeon flaps its wings?  
 👉 [**Check out the live demo**](https://www.jameskerrane.com/projects/pattern-pigeon/)
 
-## Looking for the source?
+## Looking for the agent source?
 
 You can find the repository and more information about Pattern Pigeon at [thatrobotdev/Pattern-Pigeon](https://github.com/thatrobotdev/Pattern-Pigeon), this repository holds the demo!
 
