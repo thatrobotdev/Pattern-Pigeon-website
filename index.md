@@ -110,9 +110,9 @@ This project is licensed under the [Apache License, Version 2.0](https://www.apa
   agent-id="fa2eb7a0-2d7f-49aa-8232-6944236d702d"
   language-code="en"
   max-query-length="-1">
-  <df-messenger-chat
+  <df-messenger-chat-bubble
     chat-title="Pattern Pigeon">
-  </df-messenger-chat>
+  </df-messenger-chat-bubble>
 </df-messenger>
 <style>
   df-messenger {
@@ -123,10 +123,8 @@ This project is licensed under the [Apache License, Version 2.0](https://www.apa
     --df-messenger-chat-background: #4285F4;
     --df-messenger-message-user-background: #d3e3fd;
     --df-messenger-message-bot-background: #fff;
-    bottom: 0;
-    right: 0;
-    top: 0;
-    width: 350px;
+    bottom: 16px;
+    right: 16px;
   }
 </style>
 <!-- END Dialogflow Messenger Embed -->
