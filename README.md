@@ -9,6 +9,14 @@ Website for 🐦 Pattern Pigeon, a conversational assistant built with Dialogflo
 Curious how Pattern Pigeon flaps its wings?  
 👉 [**Check out the live demo**](https://www.jameskerrane.com/projects/pattern-pigeon/)
 
+## Local development
+
+This website is built with [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/).
+
+```sh
+bundle exec jekyll serve # serve website
+```
+
 ## Looking for the agent source?
 
 You can find the repository and more information about Pattern Pigeon at [thatrobotdev/Pattern-Pigeon](https://github.com/thatrobotdev/Pattern-Pigeon), this repository holds the demo!
